@@ -1,0 +1,18 @@
+eclipse-client-electron/
+├── electron/
+│   ├── main.js           # Electron main process
+│   ├── preload.js        # Preload script
+│   └── minecraft.js      # Minecraft launcher logic
+├── src/
+│   ├── App.tsx           # Ваш точный дизайн (с изменениями)
+│   ├── main.tsx
+│   ├── index.css
+│   └── components/
+│       ├── LauncherNavigation.tsx
+│       ├── SettingsDialog.tsx
+│       ├── ModsDialog.tsx
+│       └── SkinsDialog.tsx
+├── package.json
+├── vite.config.ts
+├── tailwind.config.js
+└── postcss.config.js
